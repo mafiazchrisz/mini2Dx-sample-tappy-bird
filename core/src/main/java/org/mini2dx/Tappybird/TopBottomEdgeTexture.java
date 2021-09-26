@@ -21,9 +21,9 @@ import org.mini2Dx.core.graphics.Texture;
 
 public class TopBottomEdgeTexture {
 
-    private static final String GROUND_TEXTURE_LOCATION = "groundDirt.png";
-    private static final String CEILING_TEXTURE_LOCATION = "ceilingDirt.png";
+    private static final String GROUND_TEXTURE_LOCATION = "groundDirt.png"; // Bottom platform
+    //private static final String CEILING_TEXTURE_LOCATION = "ceilingDirt.png"; // Top platform
 
     Texture groundTexture = Mdx.graphics.newTexture(Mdx.files.internal(GROUND_TEXTURE_LOCATION));
-    Texture ceilingTexture = Mdx.graphics.newTexture(Mdx.files.internal(CEILING_TEXTURE_LOCATION));
+    //Texture ceilingTexture = Mdx.graphics.newTexture(Mdx.files.internal(CEILING_TEXTURE_LOCATION));
 }

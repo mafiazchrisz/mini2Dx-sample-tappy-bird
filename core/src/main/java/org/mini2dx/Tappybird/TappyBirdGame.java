@@ -30,12 +30,12 @@ public class TappyBirdGame extends BasicGame {
 
     public static float GRAVITY;
     public static float FLYING_SPEED;
-    public static final float GAME_WIDTH = 800;
-    public static final float GAME_HEIGHT = 500;
+    public static final float GAME_WIDTH = 800; // Default Game Width : 800
+    public static final float GAME_HEIGHT = 500; // Default Game Height : 500
 
     //These variables change how it feels to play the game.
     private static float GAME_GRAVITY = 0.6f;
-    private static float GAME_FLYING_SPEED = 8f;
+    private static float GAME_FLYING_SPEED = 8f; // Default : 8f
     private static boolean IS_ROTATING = false;
     private static boolean IS_TESTING = false;
     private static int MAX_PILLARS = 8;
@@ -88,7 +88,7 @@ public class TappyBirdGame extends BasicGame {
         userInterfaceTexture = new UserInterfaceTexture();
 
         gameSounds = new Sounds();
-        gameSounds.loopBackgroundMusic();
+        //gameSounds.loopBackgroundMusic();
 
         inputHandler = new InputHandler();
         player = new Player(playerTexture, IS_ROTATING, IS_TESTING);

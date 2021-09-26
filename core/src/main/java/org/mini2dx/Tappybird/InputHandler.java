@@ -23,5 +23,6 @@ public class InputHandler {
 
     boolean spacePressed() {
         return Mdx.input.isKeyJustPressed(Input.Keys.SPACE);
-    }
+    } // Input "Space Bar" from keyboard
+    // boolean ctrlPressed() {return Mdx.input.isKeyJustPressed(Input.Keys.CONTROL_RIGHT)} // Input "Ctrl Right" from keyboard
 }

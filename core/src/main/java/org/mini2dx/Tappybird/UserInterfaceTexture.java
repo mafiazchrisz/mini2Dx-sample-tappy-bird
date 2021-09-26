@@ -32,9 +32,9 @@ public class UserInterfaceTexture {
     private static final String NUMBER_8_LOCATION = "UserInterface/Numbers/number8.png";
     private static final String NUMBER_9_LOCATION = "UserInterface/Numbers/number9.png";
 
-    private static final String GAME_OVER_TEXT_LOCATION = "UserInterface/textGameOver.png";
-    private static final String PRESS_SPACE_TEXT_LOCATION = "UserInterface/textPressSpace.png";
-    private static final String HIGHSCORE_TEXT_LOCATION = "UserInterface/textHighscore.png";
+    private static final String GAME_OVER_TEXT_LOCATION = "UserInterface/textGameOver.png"; // Gave Over text
+    private static final String PRESS_SPACE_TEXT_LOCATION = "UserInterface/textPressSpace.png"; // Press Space text
+    private static final String HIGHSCORE_TEXT_LOCATION = "UserInterface/textHighscore.png"; // High Score text
 
     Texture numberZeroTexture = Mdx.graphics.newTexture(Mdx.files.internal(NUMBER_0_LOCATION));
     Texture numberOneTexture = Mdx.graphics.newTexture(Mdx.files.internal(NUMBER_1_LOCATION));

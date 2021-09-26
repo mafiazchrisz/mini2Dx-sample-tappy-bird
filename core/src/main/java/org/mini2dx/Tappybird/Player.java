@@ -53,7 +53,7 @@ public class Player {
 
     void settingPlayerJumping() {
         playerYAccel = JUMP_ACCEL;
-    }
+    } // Gravity
 
     void calcPlayerYPos() {
         playerY += playerYAccel;
